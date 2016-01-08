@@ -1,0 +1,3 @@
+- used Jaxb plugin in eclipse to generate the PowerProfile classes to unmarshall the xml profiles
+- added to the generated classes the root element:
+	@XmlRootElement(name="powerProfile", namespace="http://www.younicos.com/namespace")
